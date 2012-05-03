@@ -6,4 +6,4 @@ start:
 	mov [0],#0x41
 	seg es
 	mov [1],#0x1f
-loopl: jmp loopl
+loop1: jmp loop1
